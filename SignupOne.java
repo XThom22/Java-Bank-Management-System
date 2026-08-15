@@ -236,6 +236,9 @@ public class SignupOne extends JFrame implements ActionListener {
                         pincode + "')";
 
                 c.s.executeUpdate(query);
+
+                setVisible(false);
+                new SignupTwo(formno).setVisible(true);
             }
 
         } catch (Exception e) {
