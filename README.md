@@ -1,2 +1,79 @@
-# Java-Bank-Management-System
-A Java-based bank management system built to practice object-oriented programming, data structures, and core Java concepts.
+# Java Bank Management System
+
+A desktop-based Bank Management System built with Java, Java Swing, JDBC, and MySQL. This project simulates common banking and ATM operations while demonstrating object-oriented programming, GUI development, event handling, and database integration.
+
+## Features
+
+- Create a new bank account through a multi-page registration system
+- Generate a card number and PIN for new accounts
+- Log in using a card number and PIN
+- Deposit money
+- Withdraw money
+- Fast Cash withdrawals
+- Check account balance
+- Change account PIN
+- View transaction history / mini statements
+- Store account and transaction information in a MySQL database
+
+## Technologies Used
+
+- Java
+- Java Swing
+- Java AWT
+- JDBC
+- MySQL
+- Git
+- GitHub
+- Visual Studio Code
+
+## How It Works
+
+Users can create a new account by completing the registration process. Account information is stored in a MySQL database. After registration, users can log in using their generated card number and PIN.
+
+Once logged in, the ATM transaction interface provides access to banking operations including deposits, withdrawals, Fast Cash, PIN changes, balance enquiries, and mini statements.
+
+## Database
+
+The application uses MySQL to store:
+
+- Personal account information
+- Additional account details
+- Account type and banking services
+- Login credentials
+- Deposit and withdrawal transactions
+
+## Project Structure
+
+- `Login.java` - User authentication
+- `SignupOne.java` - Personal details registration
+- `SignupTwo.java` - Additional account details
+- `SignupThree.java` - Account creation and banking services
+- `Transactions.java` - Main ATM transaction menu
+- `Deposit.java` - Deposit functionality
+- `Withdraw.java` - Withdrawal functionality
+- `FastCash.java` - Quick withdrawal options
+- `PinChange.java` - PIN update functionality
+- `BalanceEnquiry.java` - Account balance calculation
+- `MiniStatement.java` - Transaction history
+- `Conn.java` - MySQL database connection
+- `bankmanagementsystem.sql` - Database schema
+
+## What I Learned
+
+Through this project, I gained hands-on experience with:
+
+- Building desktop applications with Java Swing
+- Connecting Java applications to MySQL using JDBC
+- Performing SQL queries from Java
+- Handling user input and GUI events
+- Managing multiple application screens
+- Implementing banking transaction logic
+- Using Git and GitHub for version control
+
+## Future Improvements
+
+- Improve input validation and error handling
+- Use prepared statements for database queries
+- Improve password and PIN security
+- Enhance the user interface
+- Add additional banking features
