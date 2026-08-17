@@ -71,9 +71,11 @@ Through this project, I gained hands-on experience with:
 - Using Git and GitHub for version control
 
 ## Future Improvements
-
 - Improve input validation and error handling
 - Use prepared statements for database queries
 - Improve password and PIN security
 - Enhance the user interface
 - Add additional banking features
+
+### Login Screen
+<img width="778" height="469" alt="Screenshot 2026-08-17 083438" src="https://github.com/user-attachments/assets/9286417f-8731-4ba8-a0be-bd1ef9c5de6c" />
